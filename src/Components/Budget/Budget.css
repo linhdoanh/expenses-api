@@ -1,0 +1,46 @@
+#h1-budget{
+    font-weight: bold;
+    font-family: "Arial, Helvetica, sans-serif";
+    margin-left: 1%;
+    text-align: left;  
+}
+
+#budget-list-1{
+    display: inline;
+    width: 190px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 5px;
+    background-color: #e2e3e5;
+    text-align: left;
+}
+
+#budget-list-2{
+    display: inline;
+    width: 190px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 5px;
+    background-color: #d9ebdb;
+    text-align: left;
+}
+
+#budget-list-3{
+    display: inline;
+    width: 190px;
+    height: 70px;
+    padding-top: 20px;
+    border-radius: 5px;
+    background-color: #cfe3fc;
+    text-align: left;
+}
+
+#budget-list-1 #button-budget-1{
+    margin-left: 8%;
+    border: none;
+    background-color: #3579f6;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    width: 3em;
+}

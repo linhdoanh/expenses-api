@@ -1,0 +1,28 @@
+.enpenses-h2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-top: 3%;
+    text-align: left;
+}
+
+.form-control{
+    margin-left: 1%;
+    margin-bottom: 0.5em;
+}
+
+.btn-delete{
+    text-align: right;
+    margin-right: 2%;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.btn-update{
+    text-align: right;
+    margin-right: 2%;
+    outline: none;
+    border: none;
+    background: none;
+}
