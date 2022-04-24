@@ -12,7 +12,7 @@ function AddExpenses(props) {
 
   const handleChange = (e) => {
     e.preventDefault();
-    handleSubmit(name, cost);
+    handleSubmit({title: name, amount: cost});
     setName("");
     setCost("");
   };
@@ -53,7 +53,6 @@ function AddExpenses(props) {
 
         <div className="action">
           <button className="btn btn-success">Submit</button>
-          <button className="btn btn-secondary" style={{"margin-left": "4%"}}>Update</button>
         </div>
       </form>
     </div>

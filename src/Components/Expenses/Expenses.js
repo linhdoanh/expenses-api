@@ -75,7 +75,7 @@ function ExpensesTag(props) {
 
 function ExpensesTaglist(props) {
   var expensesList = props.data.map(function (currentValue) {
-    return <ExpensesTag {...currentValue} handleDelete = {props.handleDelete} handleUpdate = {currentValue.id} />;
+    return <ExpensesTag {...currentValue} handleDelete = {props.handleDelete} handleUpdate = {props.handleUpdate} />;
   });
   return <div>{expensesList}</div>;
 }
